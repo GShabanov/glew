@@ -1,4 +1,5 @@
 # GLEW - The OpenGL Extension Wrangler Library
+# Fork for Embarcadero C++ Builder
 
 The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform. OpenGL core and extension functionality is exposed in a single header file. GLEW has been tested on a variety of operating systems, including Windows, Linux, Mac OS X, FreeBSD, Irix, and Solaris.
 
@@ -147,7 +148,13 @@ RedHat/CentOS/Fedora: `$ sudo yum install libXmu-devel libXi-devel libGL-devel c
 
 Use the provided Visual Studio project file in build/vc15/
 
-Projects for vc6, vc10, vc12 and vc14 are also provided
+Projects for vc6, vc10, vc12, vc14 and vc22 are also provided
+
+#### Embarcadero C++ Builder
+
+Project inside build/Embarcadero
+
+I'm too lazy to do other build options, so the build only includes a static library.
 
 #### MSYS/Mingw
 
